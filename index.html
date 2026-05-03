@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="stylesheet" href="f/flex.css">
+  </head>
+
+<body class="relative min-h-screen text-white">
+  <div id="videoSection" class="relative">
+    <video autoplay muted loop playsinline
+           class="absolute top-4 left-4 w-[calc(100%-2rem)] h-[calc(100%-2rem)] object-cover z-[-1] filter blur-sm opacity-80">
+      <source src="f/あああ.mp4" type="video/mp4">
+      お使いのブラウザは動画に対応していません。
+    </video>
+  <div class="lg:pb-12 relative z-10">
+    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+      <header class="flex items-center justify-between py-4 md:py-8">
+        <a href="/" class="inline-flex items-center gap-2.5 text-2xl font-bold text-white md:text-3xl logo-glow" aria-label="logo">
+          <img class="rounded-full h-auto w-10 text-indigo-500" fill="currentColor" src="https://crosshmaster.com/image-delivery?width=640&image=https://cdn.sellhub.cx/store/8f36f2c9-630b-4b4c-8662-c1241aaa64b5/5f82a303-1b4d-44ce-9b5d-1781d31bfe69">
+          Nyxveil
+        </a>
+      <nav class="hidden gap-12 lg:flex">
+        <a href="#" class="text-lg font-semibold text-gray-200 transition duration-100 hover:text-indigo-300 active:text-indigo-100">ホーム</a>
+         <a href="#" class="text-lg font-semibold text-gray-200 transition duration-100 hover:text-indigo-300 active:text-indigo-100">Nyxveilについて</a>
+        <a href="#" class="text-lg font-semibold text-gray-200 transition duration-100 hover:text-indigo-300 active:text-indigo-100">製品</a>
+       
+      </nav>
+    
+      <button id="menuButton" type="button" aria-controls="mobileMenu" aria-expanded="false" aria-label="Open main menu" class="inline-flex items-center gap-2 rounded-lg bg-white px-2.5 py-2 text-sm font-semibold text-gray-500 ring-indigo-300 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
+        </svg>
+        メニュー
+      </button>
+    </header> 
+<div id="mobileMenu" class="fixed inset-0 z-40 hidden lg:hidden" aria-hidden="true">
+  <div id="mobileOverlay" class="absolute inset-0 bg-transparent pointer-events-none"></div>
+  <aside id="mobilePanel" class="absolute left-0 top-0 h-full w-64 transform -translate-x-full bg-gray-900/90 shadow-2xl transition-transform duration-300 backdrop-blur-sm text-white !text-white">
+    <div class="flex items-center justify-between p-4 border-b border-gray-700">
+      <div class="text-lg font-bold">メニュー</div>
+      <button id="closeMenu" aria-label="Close menu" class="rounded-md p-2 hover:bg-gray-800">✕</button>
+    </div>
+    <nav class="p-4 flex flex-col gap-3" aria-label="Mobile navigation">
+      <a href="#" class="text-lg font-semibold transition duration-100 hover:text-indigo-300">ホーム</a>
+      <a href="#" class="text-lg font-semibold transition duration-100 hover:text-indigo-300">製品</a>
+      <a href="#" class="text-lg font-semibold transition duration-100 hover:text-indigo-300">Nyxveilについて</a>
+    </nav>
+  </aside>
+</div>
+<!-- すまほ end-->
+<div class="mx-auto max-w-screen-xl px-8 md:px-8 py-20"> <div class="mb-10 md:mb-16"> <h2 class="mb-4 text-center text-2xl font-bold text-white md:mb-6 lg:text-3xl">Nyxveil</h2> <p class="mx-auto max-w-screen-md text-center font-bold text-gray-200 md:text-lg">Nyxveilは日本国産の製品を販売するチートサーバーです。主な特徴として独自に開発した製品を提供しています。また、今後も新たな製品の販売やリセールを行う予定です。</p> 
+</div></div></div></div> </div>
+<!-- ここまで-->
+ <!-- 製品特徴-->
+   <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+    <div class="mb-4 ">
+      <h2 class="mb-4 text-center text-2xl font-bold text--800 md:mb-6 lg:text-3xl pt-4">Nyxveilの特徴</h2>
+    </div>
+    <div class="grid gap-4 sm:grid-cols-2 md:gap-8 lg:grid-cols-2 xl:grid-cols-2">
+      <div class="flex flex-col rounded-lg border p-4 md:p-6">
+        <h3 class="mb-3 text-lg font-semibold md:text-xl flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          安心サポート
+        </h3>
+         <p class="mb-3 text-white">無償での遠隔サポートや２４時間のチケット対応などの手厚く暖かいサポートがあり、お客様に安心してご利用いただける環境を整えております。
+      </div>
+      <div class="flex flex-col rounded-lg border p-4 md:p-6">
+        <h3 class="mb-3 text-lg font-semibold md:text-xl flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+          </svg>
+          豊富な実績
+        </h3>
+        <p class="mb-3 text-white">もちろん桜なし。リアルユーザーからのメディア付き実績で安心ができます。また、チケット内容などはチケット終了後もサーバーオリジナルのdiscord botからブラウザで簡単に取引の内容を確認、保存することができます。</p>
+         </div>
+      <div class="flex flex-col rounded-lg border p-4 md:p-6">
+        <h3 class="mb-3 text-lg font-semibold md:text-xl flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+          </svg>
+          革新的な技術によって作られた製品
+        </h3>
+        <p class="mb-3 text-white">Nxyveilオリジナル純国製の完全にプライベートなチートを提供。極めてアンチチートからの検出がされにくく、カスタマーからの満足度が非常に高いです。</p>
+      </div>
+      <div class="flex flex-col rounded-lg border p-4 md:p-6">
+        <h3 class="mb-3 text-lg font-semibold md:text-xl flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+          </svg>
+          安定したチート体験
+        </h3>
+          <p class="mb-3 text-white">ゲームのアップデートが配信されても、Nyxveilは即座に対応いたします。24時間以内での緊急アップデート、改良された機能の提供により、常に最新のゲーム環境で安定したチート体験をお楽しみいただけます。</p>
+      </div>
+    </div>
+  </div>
+<!-- 製品特徴END-->
+  <h2 class="mb-4 text-center text-2xl font-bold text--800 md:mb-6 lg:text-3xl pt-4">Nyxveil製品</h2>
+  <div class="animated-gradient vignette">
+    <div class="mx-auto max-w-screen-2xl md:px-8 px-4">
+    <div class="grid gap-4 sm:grid-cols-2 md:gap-8 lg:grid-cols-2 xl:grid-cols-2 ">
+      <div class="flex flex-col items-center overflow-hidden rounded-lg border md:flex-row">
+        <a href="#" class="group relative block h-48 w-full shrink-0 self-start overflow-hidden bg-gray-100 md:h-full md:w-32 lg:w-48">
+          <img src="f/1.png" loading="lazy"  class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+        </a>
+
+        <div class="flex flex-col p-4 lg:p-6">
+          <span class="text-sm text-white mb-3">FN CHEAT</span>
+
+          <h2 class="text-xl font-bold text-white-800 mb-3">
+            <p class="transition duration-100 ">Nyxveil</p>
+          </h2>
+          <div>
+            <a href="#" class="font-semibold text-white-500 transition duration-100 hover:text-indigo-600 active:text-white-700">詳細を見る</a>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col items-center overflow-hidden rounded-lg border md:flex-row">
+        <a href="#" class="group relative block h-48 w-full shrink-0 self-start overflow-hidden bg-gray-100 md:h-full md:w-32 lg:w-48">
+          <img src="f/2.png" loading="lazy"  class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+        </a>
+
+        <div class="flex flex-col p-4 lg:p-6">
+          <span class="text-sm text-white mb-3">PERM</span>
+
+          <h2 class="text-xl font-bold text-white-800 mb-3">
+            <p class="transition duration-100">わんちこ</p>
+          </h2>
+          <div>
+            <a href="#" class="font-semibold text-white-500 transition duration-100 hover:text-indigo-600 active:text-white-700">詳細を見る</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </div>
+   <div class="py-8 text-center text-sm text-gray-400">© 2023- Present Nyaxveil. All rights reserved.</div>
+  </body>
+  <script src="f/smf.js"></script>
+</html>
